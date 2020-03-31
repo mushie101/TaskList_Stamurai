@@ -1,6 +1,9 @@
 import React from 'react';
+import ButtonFunctionality from './modules/ButtonFunctionality'
+
 let App = () => 
     <div id="main container">
-        <h1>Welcome to my app</h1>
+        <h1 id="title">Listify</h1>
+        <ButtonFunctionality/>
     </div>
 export default App;
